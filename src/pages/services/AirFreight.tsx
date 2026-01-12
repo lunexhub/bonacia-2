@@ -58,7 +58,7 @@ const AirFreightPage = () => {
             <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-4">
               Swift Air Cargo Solutions
             </h2>
-            <p className="text-muted-foreground text-lg">
+            <p className="text-muted-foreground text-base md:text-lg">
               When time is of the essence, our air freight services deliver your cargo swiftly and safely to any destination worldwide.
             </p>
           </motion.div>
@@ -79,7 +79,7 @@ const AirFreightPage = () => {
                 <h3 className="font-display text-xl font-semibold text-foreground mb-3">
                   {feature.title}
                 </h3>
-                <p className="text-muted-foreground leading-relaxed">
+                <p className="text-muted-foreground text-base leading-relaxed">
                   {feature.description}
                 </p>
               </motion.div>
@@ -96,7 +96,7 @@ const AirFreightPage = () => {
               <h3 className="font-display text-2xl font-bold text-foreground mb-6">
                 Complete Air Freight Solutions
               </h3>
-              <p className="text-muted-foreground leading-relaxed mb-8">
+              <p className="text-muted-foreground text-base leading-relaxed mb-8">
                 Our export team efficiently and effectively handles tons of cargo including equipment, food, textiles, and even the smallest parcel or box. With costs of transport rising across the world, BH Exports provides affordable and cost-effective air freight.
               </p>
               <div className="grid sm:grid-cols-2 gap-4">
@@ -110,7 +110,7 @@ const AirFreightPage = () => {
                     className="flex items-start gap-3"
                   >
                     <CheckCircle2 className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-foreground text-sm">{item}</span>
+                    <span className="text-foreground text-base">{item}</span>
                   </motion.div>
                 ))}
               </div>
@@ -125,7 +125,7 @@ const AirFreightPage = () => {
               <h4 className="font-display text-xl font-semibold text-foreground mb-4">
                 Fly Your Cargo Today
               </h4>
-              <p className="text-muted-foreground mb-6">
+              <p className="text-muted-foreground text-base mb-6">
                 Need urgent delivery? Our air freight services get your cargo where it needs to be, fast. Contact us for competitive rates.
               </p>
               <Button asChild variant="cta" size="lg">

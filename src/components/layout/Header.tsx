@@ -159,14 +159,14 @@ const Header = () => {
               <div className="container-wide py-4 sm:py-6 space-y-3 sm:space-y-4">
                 <Link
                   to="/"
-                  className="block py-2 font-medium text-foreground"
+                  className="block py-2 font-medium text-base text-foreground"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Home
                 </Link>
                 <Link
                   to="/about"
-                  className="block py-2 font-medium text-foreground"
+                  className="block py-2 font-medium text-base text-foreground"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   About
@@ -174,7 +174,7 @@ const Header = () => {
 
                 <div>
                   <button
-                    className="flex items-center gap-1 py-2 font-medium text-foreground w-full"
+                    className="flex items-center gap-1 py-2 font-medium text-base text-foreground w-full"
                     onClick={() => setIsServicesOpen(!isServicesOpen)}
                   >
                     Services
@@ -196,7 +196,7 @@ const Header = () => {
                           <Link
                             key={service.path}
                             to={service.path}
-                            className="block py-2 text-sm text-muted-foreground"
+                            className="block py-2 text-base text-muted-foreground"
                             onClick={() => setIsMenuOpen(false)}
                           >
                             {service.name}
@@ -209,7 +209,7 @@ const Header = () => {
 
                 <Link
                   to="/contact"
-                  className="block py-2 font-medium text-foreground"
+                  className="block py-2 font-medium text-base text-foreground"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Contact

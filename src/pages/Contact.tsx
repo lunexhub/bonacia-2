@@ -55,7 +55,7 @@ const Contact = () => {
             <span className="inline-block px-4 py-2 bg-accent/10 text-accent rounded-full text-sm font-medium mb-4">
               Contact Us
             </span>
-            <h1 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold text-foreground mb-4 sm:mb-6">
+            <h1 className="font-display text-4xl sm:text-4xl md:text-5xl font-bold text-foreground mb-4 sm:mb-6">
               Let's Discuss Your Logistics Needs
             </h1>
             <p className="text-muted-foreground text-base sm:text-lg leading-relaxed mb-6 sm:mb-8">
@@ -87,7 +87,7 @@ const Contact = () => {
                 <h2 className="font-display text-2xl font-bold text-foreground mb-6">
                   Get in Touch
                 </h2>
-                <p className="text-muted-foreground leading-relaxed">
+                <p className="text-muted-foreground text-base leading-relaxed">
                   Have questions about our services? Our team is ready to assist you with all your logistics needs.
                 </p>
               </div>
@@ -98,8 +98,8 @@ const Contact = () => {
                     <MapPin className="w-5 h-5 text-accent" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-foreground mb-1">Address</h3>
-                    <p className="text-muted-foreground">
+                    <h3 className="font-semibold text-base text-foreground mb-1">Address</h3>
+                    <p className="text-muted-foreground text-base">
                       44 Oleander Avenue,<br />
                       Kempton Park, 1625<br />
                       South Africa
@@ -112,8 +112,8 @@ const Contact = () => {
                     <Phone className="w-5 h-5 text-accent" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-foreground mb-1">Phone</h3>
-                    <p className="text-muted-foreground">
+                    <h3 className="font-semibold text-base text-foreground mb-1">Phone</h3>
+                    <p className="text-muted-foreground text-base">
                       <a href="tel:+27106342629" className="hover:text-accent transition-colors">
                         (+27) 10 634 2629
                       </a>
@@ -130,8 +130,8 @@ const Contact = () => {
                     <Mail className="w-5 h-5 text-accent" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-foreground mb-1">Email</h3>
-                    <p className="text-muted-foreground">
+                    <h3 className="font-semibold text-base text-foreground mb-1">Email</h3>
+                    <p className="text-muted-foreground text-base">
                       <a href="mailto:info@bonaciaholdings.co.za" className="hover:text-accent transition-colors">
                         info@bonaciaholdings.co.za
                       </a>
@@ -144,8 +144,8 @@ const Contact = () => {
                     <Clock className="w-5 h-5 text-accent" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-foreground mb-1">Business Hours</h3>
-                    <p className="text-muted-foreground">
+                    <h3 className="font-semibold text-base text-foreground mb-1">Business Hours</h3>
+                    <p className="text-muted-foreground text-base">
                       Monday - Friday: 8:00 AM - 5:00 PM<br />
                       Saturday: 9:00 AM - 1:00 PM
                     </p>
@@ -167,7 +167,7 @@ const Contact = () => {
                 <h2 className="font-display text-2xl font-bold text-foreground mb-2">
                   Request a Quote
                 </h2>
-                <p className="text-muted-foreground mb-8">
+                <p className="text-muted-foreground text-base mb-8">
                   Fill out the form below and we'll get back to you within 24 hours.
                 </p>
 
@@ -194,7 +194,7 @@ const Contact = () => {
                   <form onSubmit={handleSubmit} className="space-y-6">
                     <div className="grid sm:grid-cols-2 gap-4">
                       <div>
-                        <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
+                        <label htmlFor="name" className="block text-base font-medium text-foreground mb-2">
                           Full Name *
                         </label>
                         <Input
@@ -207,7 +207,7 @@ const Contact = () => {
                         />
                       </div>
                       <div>
-                        <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
+                        <label htmlFor="email" className="block text-base font-medium text-foreground mb-2">
                           Email Address *
                         </label>
                         <Input
@@ -224,7 +224,7 @@ const Contact = () => {
 
                     <div className="grid sm:grid-cols-2 gap-4">
                       <div>
-                        <label htmlFor="phone" className="block text-sm font-medium text-foreground mb-2">
+                        <label htmlFor="phone" className="block text-base font-medium text-foreground mb-2">
                           Phone Number
                         </label>
                         <Input
@@ -237,7 +237,7 @@ const Contact = () => {
                         />
                       </div>
                       <div>
-                        <label htmlFor="company" className="block text-sm font-medium text-foreground mb-2">
+                        <label htmlFor="company" className="block text-base font-medium text-foreground mb-2">
                           Company Name
                         </label>
                         <Input
@@ -251,7 +251,7 @@ const Contact = () => {
                     </div>
 
                     <div>
-                      <label htmlFor="service" className="block text-sm font-medium text-foreground mb-2">
+                      <label htmlFor="service" className="block text-base font-medium text-foreground mb-2">
                         Service Interested In *
                       </label>
                       <select
@@ -273,7 +273,7 @@ const Contact = () => {
                     </div>
 
                     <div>
-                      <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
+                      <label htmlFor="message" className="block text-base font-medium text-foreground mb-2">
                         Tell us about your shipment *
                       </label>
                       <Textarea

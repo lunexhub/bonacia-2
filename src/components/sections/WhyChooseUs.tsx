@@ -46,13 +46,13 @@ const WhyChooseUs = () => {
           transition={{ duration: 0.5 }}
           className="text-center max-w-2xl mx-auto mb-10 sm:mb-12 md:mb-16"
         >
-          <span className="inline-block px-3 py-1.5 sm:px-4 sm:py-2 bg-accent/10 text-accent rounded-full text-xs sm:text-sm font-medium mb-3 sm:mb-4">
+          <span className="inline-block px-3 py-1.5 sm:px-4 sm:py-2 bg-accent/10 text-accent rounded-full text-sm sm:text-sm font-medium mb-3 sm:mb-4">
             Why Bonacia Holdings
           </span>
-          <h2 className="font-display text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-3 sm:mb-4">
+          <h2 className="font-display text-3xl sm:text-3xl md:text-4xl font-bold text-foreground mb-3 sm:mb-4">
             Your Cargo, Our Priority
           </h2>
-          <p className="text-muted-foreground text-sm sm:text-base md:text-lg px-4 sm:px-0">
+          <p className="text-muted-foreground text-base sm:text-base md:text-lg px-4 sm:px-0">
             We deliver your cargo—even the tiniest package—at the best price with the greatest possible service.
           </p>
         </motion.div>
@@ -72,10 +72,10 @@ const WhyChooseUs = () => {
                 <feature.icon className="w-5 h-5 sm:w-6 sm:h-6 text-accent" />
               </div>
               <div>
-                <h3 className="font-display text-base sm:text-lg font-semibold text-foreground mb-1.5 sm:mb-2">
+                <h3 className="font-display text-lg sm:text-lg font-semibold text-foreground mb-1.5 sm:mb-2">
                   {feature.title}
                 </h3>
-                <p className="text-muted-foreground text-sm sm:text-base leading-relaxed">
+                <p className="text-muted-foreground text-base sm:text-base leading-relaxed">
                   {feature.description}
                 </p>
               </div>

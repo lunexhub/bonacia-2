@@ -31,7 +31,7 @@ const About = () => {
             <span className="inline-block px-4 py-2 bg-accent/10 text-accent rounded-full text-sm font-medium mb-4">
               About Us
             </span>
-            <h1 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold text-foreground mb-4 sm:mb-6">
+            <h1 className="font-display text-4xl sm:text-4xl md:text-5xl font-bold text-foreground mb-4 sm:mb-6">
               Delivering Excellence Since Day One
             </h1>
             <p className="text-muted-foreground text-base sm:text-lg leading-relaxed mb-6 sm:mb-8">
@@ -81,10 +81,10 @@ const About = () => {
               <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-6">
                 Your Trusted Global Logistics Partner
               </h2>
-              <p className="text-muted-foreground leading-relaxed mb-6">
+              <p className="text-muted-foreground text-base leading-relaxed mb-6">
                 Bonacia Holdings is a South African based multinational logistics, freights, supply and consultancy company with working partners across the globe. Our well-assembled team of various expertise are strategically positioned with our global partners to handle your air, sea, road, and cross-border exports and imports freight.
               </p>
-              <p className="text-muted-foreground leading-relaxed mb-8">
+              <p className="text-muted-foreground text-base leading-relaxed mb-8">
                 Whether you need to move small personal effects or heavy industrial equipment, from perishables including seafood and fruits to complex machinery—we have logistics solutions tailored to your needs, no matter where you are in the world.
               </p>
 
@@ -99,7 +99,7 @@ const About = () => {
                     className="flex items-start gap-3"
                   >
                     <CheckCircle2 className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                    <span className="text-foreground text-sm">{value}</span>
+                    <span className="text-foreground text-base">{value}</span>
                   </motion.div>
                 ))}
               </div>
@@ -130,7 +130,7 @@ const About = () => {
                 <span className="font-display text-2xl font-bold text-accent">M</span>
               </div>
               <h3 className="font-display text-2xl font-bold text-foreground mb-4">Our Mission</h3>
-              <p className="text-muted-foreground leading-relaxed">
+              <p className="text-muted-foreground text-base leading-relaxed">
                 You, the customer, are our topmost priority and focus. We're constantly growing our network to provide our clients with a genuinely worldwide partner and utilizing turnkey solutions to provide industry-leading goods and services.
               </p>
             </motion.div>
@@ -146,7 +146,7 @@ const About = () => {
                 <span className="font-display text-2xl font-bold text-accent">V</span>
               </div>
               <h3 className="font-display text-2xl font-bold text-foreground mb-4">Our Vision</h3>
-              <p className="text-muted-foreground leading-relaxed">
+              <p className="text-muted-foreground text-base leading-relaxed">
                 To be the leading logistics partner in Africa and beyond, known for delivering excellence, reliability, and innovation. We envision a world where seamless freight movement drives global commerce forward.
               </p>
             </motion.div>

@@ -14,7 +14,7 @@ const Footer = () => {
               </div>
               <span className="font-display font-bold text-lg sm:text-xl">Bonacia Holdings</span>
             </div>
-            <p className="text-primary-foreground/70 text-sm sm:text-base mb-4 sm:mb-6 leading-relaxed">
+            <p className="text-primary-foreground/70 text-base sm:text-base mb-4 sm:mb-6 leading-relaxed">
               South African based multinational logistics, freights, supply and consultancy company with working partners across the globe.
             </p>
             <div className="flex gap-3 sm:gap-4">
@@ -95,24 +95,24 @@ const Footer = () => {
             <ul className="space-y-3 sm:space-y-4">
               <li className="flex items-start gap-2 sm:gap-3">
                 <MapPin className="w-4 h-4 sm:w-5 sm:h-5 text-accent mt-0.5 flex-shrink-0" />
-                <span className="text-primary-foreground/70 text-sm sm:text-base">
+                <span className="text-primary-foreground/70 text-base sm:text-base">
                   44 Oleander Avenue, Kempton Park, 1625
                 </span>
               </li>
               <li>
-                <a href="tel:+27106342629" className="flex items-center gap-2 sm:gap-3 text-primary-foreground/70 hover:text-accent transition-colors text-sm sm:text-base">
+                <a href="tel:+27106342629" className="flex items-center gap-2 sm:gap-3 text-primary-foreground/70 hover:text-accent transition-colors text-base sm:text-base">
                   <Phone className="w-4 h-4 sm:w-5 sm:h-5 text-accent flex-shrink-0" />
                   (+27) 10 634 2629
                 </a>
               </li>
               <li>
-                <a href="tel:+27790289940" className="flex items-center gap-2 sm:gap-3 text-primary-foreground/70 hover:text-accent transition-colors text-sm sm:text-base">
+                <a href="tel:+27790289940" className="flex items-center gap-2 sm:gap-3 text-primary-foreground/70 hover:text-accent transition-colors text-base sm:text-base">
                   <Phone className="w-4 h-4 sm:w-5 sm:h-5 text-accent flex-shrink-0" />
                   (+27) 79 028 9940
                 </a>
               </li>
               <li>
-                <a href="mailto:info@bonaciaholdings.co.za" className="flex items-center gap-2 sm:gap-3 text-primary-foreground/70 hover:text-accent transition-colors text-sm sm:text-base break-all">
+                <a href="mailto:info@bonaciaholdings.co.za" className="flex items-center gap-2 sm:gap-3 text-primary-foreground/70 hover:text-accent transition-colors text-base sm:text-base break-all">
                   <Mail className="w-4 h-4 sm:w-5 sm:h-5 text-accent flex-shrink-0" />
                   info@bonaciaholdings.co.za
                 </a>

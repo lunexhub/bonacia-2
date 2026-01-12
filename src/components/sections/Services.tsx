@@ -53,13 +53,13 @@ const Services = () => {
           transition={{ duration: 0.5 }}
           className="text-center max-w-2xl mx-auto mb-10 sm:mb-12 md:mb-16"
         >
-          <span className="inline-block px-3 py-1.5 sm:px-4 sm:py-2 bg-accent/10 text-accent rounded-full text-xs sm:text-sm font-medium mb-3 sm:mb-4">
+          <span className="inline-block px-3 py-1.5 sm:px-4 sm:py-2 bg-accent/10 text-accent rounded-full text-sm sm:text-sm font-medium mb-3 sm:mb-4">
             Our Services
           </span>
-          <h2 className="font-display text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-3 sm:mb-4">
+          <h2 className="font-display text-3xl sm:text-3xl md:text-4xl font-bold text-foreground mb-3 sm:mb-4">
             Comprehensive Logistics Solutions
           </h2>
-          <p className="text-muted-foreground text-sm sm:text-base md:text-lg px-4 sm:px-0">
+          <p className="text-muted-foreground text-base sm:text-base md:text-lg px-4 sm:px-0">
             From warehousing to worldwide delivery, we provide end-to-end logistics services tailored to your business needs.
           </p>
         </motion.div>
@@ -83,10 +83,10 @@ const Services = () => {
                 >
                   <service.icon className="w-6 h-6 sm:w-7 sm:h-7 text-primary-foreground" />
                 </div>
-                <h3 className="font-display text-lg sm:text-xl font-semibold text-foreground mb-2 sm:mb-3 group-hover:text-accent transition-colors">
+                <h3 className="font-display text-xl sm:text-xl font-semibold text-foreground mb-2 sm:mb-3 group-hover:text-accent transition-colors">
                   {service.title}
                 </h3>
-                <p className="text-muted-foreground text-sm sm:text-base mb-4 sm:mb-6 leading-relaxed">
+                <p className="text-muted-foreground text-base sm:text-base mb-4 sm:mb-6 leading-relaxed">
                   {service.description}
                 </p>
                 <span className="inline-flex items-center gap-2 text-accent font-medium group-hover:gap-3 transition-all">

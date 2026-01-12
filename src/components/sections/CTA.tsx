@@ -20,14 +20,14 @@ const CTA = () => {
           transition={{ duration: 0.5 }}
           className="text-center max-w-3xl mx-auto"
         >
-          <h2 className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground mb-4 sm:mb-6">
+          <h2 className="font-display text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground mb-4 sm:mb-6">
             Ready to Ship Your Cargo?
           </h2>
-          <p className="text-primary-foreground/90 sm:text-primary-foreground/80 text-sm sm:text-base md:text-lg lg:text-xl mb-6 sm:mb-8 md:mb-10 leading-relaxed">
+          <p className="text-primary-foreground/90 sm:text-primary-foreground/80 text-base sm:text-base md:text-lg lg:text-xl mb-6 sm:mb-8 md:mb-10 leading-relaxed">
             Get a free quote today and discover why businesses across the globe trust Bonacia Holdings with their logistics needs.
           </p>
           <div className="flex justify-center">
-            <Button asChild variant="hero" size="lg" className="text-sm sm:text-base px-6 sm:px-8 h-12 sm:h-14 w-full sm:w-auto">
+            <Button asChild variant="hero" size="lg" className="text-base sm:text-base px-6 sm:px-8 h-12 sm:h-14 w-full sm:w-auto">
               <Link to="/contact">
                 Get Your Free Quote
                 <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 ml-1" />

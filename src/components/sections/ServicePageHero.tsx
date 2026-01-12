@@ -50,14 +50,14 @@ const ServicePageHero = ({
             <div className="w-10 h-10 sm:w-12 sm:h-12 bg-accent rounded-xl flex items-center justify-center">
               <Icon className="w-5 h-5 sm:w-6 sm:h-6 text-accent-foreground" />
             </div>
-            <span className="text-accent font-medium text-sm sm:text-base">{subtitle}</span>
+            <span className="text-accent font-medium text-base sm:text-base">{subtitle}</span>
           </motion.div>
 
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight mb-4 sm:mb-6"
+            className="font-display text-4xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight mb-4 sm:mb-6"
           >
             {title}
           </motion.h1>
@@ -66,7 +66,7 @@ const ServicePageHero = ({
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-base sm:text-lg md:text-xl text-primary-foreground/80 mb-6 sm:mb-8 leading-relaxed"
+            className="text-base sm:text-lg md:text-xl text-primary-foreground/90 sm:text-primary-foreground/80 mb-6 sm:mb-8 leading-relaxed"
           >
             {description}
           </motion.p>

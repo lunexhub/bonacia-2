@@ -57,10 +57,10 @@ const Stats = () => {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="text-center px-2 sm:px-0"
             >
-              <div className="font-display text-3xl sm:text-4xl md:text-5xl font-bold text-accent mb-2">
+              <div className="font-display text-4xl sm:text-4xl md:text-5xl font-bold text-accent mb-2">
                 <Counter value={stat.value} suffix={stat.suffix} />
               </div>
-              <p className="text-primary-foreground/70 font-medium text-sm sm:text-base">
+              <p className="text-primary-foreground/70 font-medium text-base sm:text-base">
                 {stat.label}
               </p>
             </motion.div>
