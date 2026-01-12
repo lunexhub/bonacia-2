@@ -41,14 +41,14 @@ const Header = () => {
       </div>
 
       {/* Main Navigation */}
-      <nav className="backdrop-blur-md">
-        <div className="container-wide py-2 flex items-center justify-between">
+      <nav className="backdrop-blur-md bg-background/80 border-b border-border/50">
+        <div className="container-wide py-2.5 sm:py-3 flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center">
-              <span className="font-display font-bold text-accent-foreground text-xl">B</span>
+          <Link to="/" className="flex items-center gap-1.5 sm:gap-2">
+            <div className="w-8 h-8 sm:w-10 sm:h-10 bg-accent rounded-lg flex items-center justify-center">
+              <span className="font-display font-bold text-accent-foreground text-lg sm:text-xl">B</span>
             </div>
-            <span className="font-display font-bold text-xl text-foreground">
+            <span className="font-display font-bold text-base sm:text-lg md:text-xl text-foreground">
               Bonacia Holdings
             </span>
           </Link>
@@ -139,8 +139,9 @@ const Header = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="lg:hidden p-2 text-foreground"
+            className="lg:hidden p-2 -mr-2 text-foreground hover:text-accent transition-colors"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
+            aria-label="Toggle menu"
           >
             {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
@@ -153,9 +154,9 @@ const Header = () => {
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: 1, height: "auto" }}
               exit={{ opacity: 0, height: 0 }}
-              className="lg:hidden bg-card border-t border-border"
+              className="lg:hidden bg-card/95 backdrop-blur-md border-t border-border"
             >
-              <div className="container-wide py-4 space-y-4">
+              <div className="container-wide py-4 sm:py-6 space-y-3 sm:space-y-4">
                 <Link
                   to="/"
                   className="block py-2 font-medium text-foreground"

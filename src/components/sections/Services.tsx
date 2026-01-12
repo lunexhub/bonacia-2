@@ -43,7 +43,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section id="services" className="py-24 bg-muted">
+    <section id="services" className="py-12 sm:py-16 md:py-20 lg:py-24 bg-muted">
       <div className="container-wide">
         {/* Section Header */}
         <motion.div
@@ -51,21 +51,21 @@ const Services = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="text-center max-w-2xl mx-auto mb-16"
+          className="text-center max-w-2xl mx-auto mb-10 sm:mb-12 md:mb-16"
         >
-          <span className="inline-block px-4 py-2 bg-accent/10 text-accent rounded-full text-sm font-medium mb-4">
+          <span className="inline-block px-3 py-1.5 sm:px-4 sm:py-2 bg-accent/10 text-accent rounded-full text-xs sm:text-sm font-medium mb-3 sm:mb-4">
             Our Services
           </span>
-          <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-4">
+          <h2 className="font-display text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-3 sm:mb-4">
             Comprehensive Logistics Solutions
           </h2>
-          <p className="text-muted-foreground text-lg">
+          <p className="text-muted-foreground text-sm sm:text-base md:text-lg px-4 sm:px-0">
             From warehousing to worldwide delivery, we provide end-to-end logistics services tailored to your business needs.
           </p>
         </motion.div>
 
         {/* Services Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
           {services.map((service, index) => (
             <motion.div
               key={service.path}
@@ -76,17 +76,17 @@ const Services = () => {
             >
               <Link
                 to={service.path}
-                className="group block bg-card rounded-2xl p-8 shadow-soft hover:shadow-medium transition-all duration-300 h-full border border-border hover:border-accent/30"
+                className="group block bg-card rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-soft hover:shadow-medium transition-all duration-300 h-full border border-border hover:border-accent/30"
               >
                 <div
-                  className={`w-14 h-14 rounded-xl bg-gradient-to-br ${service.color} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`}
+                  className={`w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-gradient-to-br ${service.color} flex items-center justify-center mb-4 sm:mb-6 group-hover:scale-110 transition-transform`}
                 >
-                  <service.icon className="w-7 h-7 text-primary-foreground" />
+                  <service.icon className="w-6 h-6 sm:w-7 sm:h-7 text-primary-foreground" />
                 </div>
-                <h3 className="font-display text-xl font-semibold text-foreground mb-3 group-hover:text-accent transition-colors">
+                <h3 className="font-display text-lg sm:text-xl font-semibold text-foreground mb-2 sm:mb-3 group-hover:text-accent transition-colors">
                   {service.title}
                 </h3>
-                <p className="text-muted-foreground mb-6 leading-relaxed">
+                <p className="text-muted-foreground text-sm sm:text-base mb-4 sm:mb-6 leading-relaxed">
                   {service.description}
                 </p>
                 <span className="inline-flex items-center gap-2 text-accent font-medium group-hover:gap-3 transition-all">
@@ -104,9 +104,9 @@ const Services = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="text-center mt-12"
+          className="text-center mt-8 sm:mt-10 md:mt-12"
         >
-          <Button asChild variant="cta" size="lg">
+          <Button asChild variant="cta" size="lg" className="w-full sm:w-auto">
             <Link to="/contact">
               Get Your Free Quote
               <ArrowRight className="w-4 h-4" />

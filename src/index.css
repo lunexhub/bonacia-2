@@ -155,6 +155,18 @@
   .container-wide {
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
   }
+
+  /* Mobile touch improvements */
+  @media (hover: none) and (pointer: coarse) {
+    button,
+    a {
+      -webkit-tap-highlight-color: transparent;
+    }
+  }
+
+  .touch-manipulation {
+    touch-action: manipulation;
+  }
 }
 
 @layer utilities {

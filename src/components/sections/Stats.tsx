@@ -45,9 +45,9 @@ const Counter = ({ value, suffix }: { value: number; suffix: string }) => {
 
 const Stats = () => {
   return (
-    <section className="py-20 bg-primary">
+    <section className="py-12 sm:py-16 md:py-20 bg-primary">
       <div className="container-wide">
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
           {stats.map((stat, index) => (
             <motion.div
               key={stat.label}
@@ -55,12 +55,12 @@ const Stats = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="text-center"
+              className="text-center px-2 sm:px-0"
             >
-              <div className="font-display text-4xl md:text-5xl font-bold text-accent mb-2">
+              <div className="font-display text-3xl sm:text-4xl md:text-5xl font-bold text-accent mb-2">
                 <Counter value={stat.value} suffix={stat.suffix} />
               </div>
-              <p className="text-primary-foreground/70 font-medium">
+              <p className="text-primary-foreground/70 font-medium text-sm sm:text-base">
                 {stat.label}
               </p>
             </motion.div>
